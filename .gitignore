@@ -1,0 +1,9 @@
+# Filtered by mitXael
+*.lnk
+*.cd
+*.db
+*.sln
+*.vcxproj.user
+*.vcxproj.filters
+_private/
+_[Bb]ak*/

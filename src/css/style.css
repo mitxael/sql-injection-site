@@ -1,0 +1,93 @@
+﻿/**********************
+ * Simulation Environment provided by SQLINJECTION.NET
+ *
+ * SECTION A - Main tags.
+ * SECTION B - General page setup.
+ * SECTION C - Error messages.
+ * SECTION D - Footer.
+ * SECTION E - Debug boxes (MySQL Error and Query executed).
+ * SECTION F - Simulations list.
+ * SECTION G - Miscellaneous.
+ * SECTION H - Main menu (tabs).
+ ***********************************/
+
+/************************************
+ * SECTION A - Main tags.
+ ***********************************/
+* {	margin: 0px; padding: 0px; }
+body { font: .74em Tahoma, Verdana, Sans-Serif, Arial; background-color: #111; color: #888; }
+h1 { font: normal 3.4em "Trebuchet MS", Helvetica, Arial; }
+h2 { font: normal 1.8em "Trebuchet MS", Helvetica, Arial; color: #ddd; margin: 0 0 15px; }
+h3 { font: normal 1.4em "Trebuchet MS", Helvetica, Arial; margin: 0 0 20px; }
+h4 { font: normal 1.2em "Trebuchet MS", Helvetica, Arial; color: #ddd; margin: 30px 0 4px; font-weight:bold;}
+p { margin-bottom:15px; line-height: 1.6em; }
+a { color: #ddd; text-decoration: none; border-bottom:1px dotted #666;}
+img { outline: 0; border: 0; }
+input { background-color:#222; color:#fff; border:1px solid #666; padding:2px; }
+td {padding:3px; line-height: 1.6em;}
+
+/************************************
+ * SECTION B - General page setup.
+ ***********************************/
+#page { width: 984px; margin: auto; }
+#logo { float: left; padding: 40px 0 10px 15px; }
+#logo h1 { color: #fff; }
+.content { padding: 20px; }
+.divclear { clear: both; }
+#main { clear: both; padding: 20px; }
+
+/************************************
+ * SECTION C - Error messages.
+ ***********************************/
+.errorTitle {color:#cc0000; font-weight:bold;}
+.messagebox {padding:20px 15px 20px 15px; background:#222; border:1px dotted #666;}
+.important {color:#fff; font-weight:bold;}
+
+/************************************
+ * SECTION D - Footer.
+ ***********************************/
+#footer { color:#333;clear: both; border-top:1px solid #444; padding: 20px 20px 10px; font-size: .9em; text-align:center; }
+#footer a { color: #ccc; margin: 0 10px 0 0; border-bottom: 1px dotted #444; padding: 0 0 1px; }
+#footer p { color:#666; margin: 0 0 8px; }
+
+/************************************
+ * SECTION E - Debug boxes (MySQL Error and Query executed).
+ ***********************************/
+.boxHeader {height:15px; background-color:#222; border-bottom:1px dotted #444; padding:4px;}
+.boxTitle {float:left; font-weight:bold; color:#ccc;}
+.boxCommand {float:right; border:none;}
+.contentBox {display:none; padding:10px; margin:none; border-bottom:1px dotted #444;}
+
+/************************************
+ * SECTION F - Simulations list.
+ ***********************************/
+.listTable {width:100%;}
+.listHead {color: #fff; font-weight: bold; border-top:1px solid #666; border-bottom:1px solid #666; padding:3px; background-color:#222;}
+.listRow {border-top: 0px; border-bottom: 1px dotted #666; border-left:0px; border-right:0px; padding:3px; }
+.col { float: left; width: 600px; margin: 0 30px 15px 0; }
+.col.last { float: right; width: 300px; margin-right: 0; }
+
+/************************************
+ * SECTION G - Miscellaneous.
+ ***********************************/
+.case {border-bottom: 1px dotted #444; margin-top:10px;}
+.lastcase {margin-top:10px; }
+.caseTitle {color:#fff; font-weight: bold;}
+
+/************************************
+ * SECTION H - Main menu (tabs).
+ ***********************************/
+#tabs { float:left; width:100%; font-size:11px; font-weight:bold; border-bottom:1px solid #444; margin-bottom:25px; }
+#tabs ul { margin:0; padding:10px 10px 0 10px; list-style:none; display:inline-block; float:right; }
+#tabs li { display:inline; margin:0; padding:0; }
+#tabs a { float:left; background:url("./../images/tableft.png") no-repeat left top; padding:0 5px 0 4px; text-decoration:none; color:#FFF; border:none; }
+#tabs a span { display:block; background:url("./../images/tabright.png") no-repeat right top; padding:5px 15px 4px 6px; }
+.active {color:#9C0;}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span { float:none; }
+
+/* End IE5-Mac hack */
+#tabs a:hover span { color:#FFF; }
+#tabs a:hover {	color:#9C0; }
+#tabs a:hover span { color:#9C0; }
