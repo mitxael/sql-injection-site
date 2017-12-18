@@ -1,17 +1,17 @@
     ***************************************************************************************
-    * Abstract:   Network ping-pong with support for Windows/Linux/MacOS
-    * Uses:       This library has been compiled with C11.
+    * Abstract:   Web site to demonstrate SQL Injection functionalities
+    * Uses:       This web site has been with PHP 5.6, MSSQL 2014 and IIS 10.
     * Author:     Michael Vasquez Otazu
     * Email:      mitxael@hotmail.it
     * History:    V1.0 - First release
     * Description:
-    *             - Ping pong game for multiple players across a network
-    *             - Support for Windows, Linux and MacOS
-    *             - Client/Server architecture
-    *             - Educational use of Sockets, Json messages, Regex, etc.
+    *             - http://mitxael.azurewebsites.net/crociera/
+    *             - Switch between "safe" and "unsafe" web site 
+    *             - Online real-time debug for evil queries
+    *             - Multiple sections for different vulnerabilities
     ********************************* START LICENSE BLOCK *********************************
     * The MIT License (MIT)
-    * Copyright (C) 2016 Michael Vasquez Otazu
+    * Copyright (C) 2015 Michael Vasquez Otazu
     *
     * Permission is hereby granted, free of charge, to any person obtaining a copy of this 
     * software and associated documentation files (the "Software"), to deal in the Software 
