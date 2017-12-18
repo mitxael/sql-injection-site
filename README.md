@@ -1,4 +1,4 @@
-NG<p align="left">
+<p align="left">
 <img width="80%" height="80%" src="https://github.com/mitxael/sql-injection-site/blob/master/screenshot.PNG">
    
     ***************************************************************************************
