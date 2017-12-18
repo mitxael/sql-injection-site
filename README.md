@@ -1,3 +1,6 @@
+NG<p align="left">
+<img width="80%" height="80%" src="https://github.com/mitxael/sql-injection-site/blob/master/screenshot.PNG">
+   
     ***************************************************************************************
     * Abstract:   Web site to demonstrate SQL Injection functionalities
     * Uses:       This web site has been with PHP 5.6, MSSQL 2014 and IIS 10.
